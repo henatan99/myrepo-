@@ -1,0 +1,25 @@
+@media (min-width: 40em) {
+    header,
+    footer {
+        grid-column: 1 / 3;
+    }
+}
+body.media > * {
+    flex: 1 1 250px;
+}
+
+#navbar
+{
+    position: fixed; 
+    margin-top: 20px; 
+    margin-left: 20px;
+    max-width: 250px;
+    
+}
+
+#main-doc
+{
+    position: relative;
+    margin-left: 300px;
+    max-width: 700px;
+}
